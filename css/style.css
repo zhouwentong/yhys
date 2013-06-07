@@ -143,8 +143,11 @@ strong,h1,h2,h3,h4,dt,h1 a,h2 a,h3 a,h4 a{font-weight:bold;}
 #b .br{width:256px;}
 /*-------------------头尾--------------------------*/
 #h{background:url(../img/h.jpg) no-repeat top center;}
-#h .r1{height:131px; text-align:right; padding-right:27px; padding-top:35px;}
-#h .r1 a{display:inline-block; background:url(../img/h-r1-a.png) no-repeat; width:111px; height:40px; line-height:40px; text-align:center; font-size:18px; font-weight:bold; color:#FFFFFF; text-shadow:1px 1px 2px #000; margin:0 5px;}
+#h .r1{height:131px; padding-top:35px;}
+#h .r1 .c1{width:436px; padding-left:80px;}
+#h .r1 .c1 a{display:block; height:40px; text-indent:-999em;}
+#h .r1 .c2{width:340px; text-align:right; padding-right:33px;}
+#h .r1 .c2 a{display:inline-block; background:url(../img/h-r1-a.png) no-repeat; width:111px; height:40px; line-height:40px; text-align:center; font-size:18px; font-weight:bold; color:#FFFFFF; text-shadow:1px 1px 2px #000; margin:0 5px;}
 #h .r2 ul{padding-left:17px;}
 #h .r2 li{line-height:40px; padding:0 12px; background:url(../img/h-r2-li.png) no-repeat right center;}
 #h .r2 .last{background:none;}
